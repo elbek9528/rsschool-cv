@@ -43,7 +43,14 @@ I am fond of intellectual games, tech blogs, music and computer assembly.
                     </ul> 
 ```
 
-##
+## Experince
+
+* 09/2019 - 03/2021 System Administrator at own startup project 
+* 12/2019 - 04/2021 Technical Specialist at medical distributor
+* 04/2021 - 11/2021 Head of medical distributor
+* 12/2021 - 01/2023 Project Manager at Pharmacy and Medical Company
+
+## Language
 
 
 

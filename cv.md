@@ -50,7 +50,18 @@ I am fond of intellectual games, tech blogs, music and computer assembly.
 * 04/2021 - 11/2021 Head of medical distributor
 * 12/2021 - 01/2023 Project Manager at Pharmacy and Medical Company
 
+## Education
+
+* 2019 - Tashkent Branch of MSU named after Lomonosov, applied math and computer science
+* 2022 - Proweb courses
+* 2022 - Javarush courses
+
 ## Language
+
+1) Russian - native
+2) English - B1
+3) German - C1
+4) Uzbek - spoken
 
 
 

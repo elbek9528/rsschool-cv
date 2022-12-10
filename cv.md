@@ -58,10 +58,7 @@ I am fond of intellectual games, tech blogs, music and computer assembly.
 
 ## Language
 
-1) Russian - native  
-2) English - B1  
-3) German - C1  
+1) Russian - native
+2) English - B1
+3) German - C1
 4) Uzbek - spoken
-
-
-

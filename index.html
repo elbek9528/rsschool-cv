@@ -26,18 +26,18 @@
                         <a href="#skills" class="header__nav-anchor">Skills</a>
                     </li>
                     <li class="header__nav-li">
-                        <a href="#code" class="header__nav-anchor">Code example</a>
+                        <a href="#experience" class="header__nav-anchor">Experience</a>
                     </li>
                     <li class="header__nav-li">
-                        <a href="#experince" class="header__nav-anchor">Experince</a>
-                    </li>
+                        <a href="#code" class="header__nav-anchor">Code example</a>
+                    </li>                    
                     <li class="header__nav-li">
                         <a href="#education" class="header__nav-anchor">Education</a>
                     </li>
                     <li class="header__nav-li">
                         <a href="#language" class="header__nav-anchor">Language</a>
                     </li>
-                </ul>
+                </ul>   
             </div>
         </div>
     </header>
@@ -49,8 +49,8 @@
                         <img src="img/photo.jpg" alt="Photo" class="photo">
                     </div>
                     <div class="section1__box-right">
+                        <a id="aboutme"></a>
                         <h1>Elbek Nurmukhamedov</h1>
-                        <a name="aboutme"></a>
                         <h2 class="aboutme">About me</h2>
                         <p class="section1__text">
                             I have good communication skills, easily adapt to the companion.
@@ -65,21 +65,22 @@
             <div class="container">
                 <div class="section__box">
                     <div class="section2__box-left">
-                        <a name="contacts"></a>
+                        <a id="contacts"></a>
                         <h2>Contacts</h2>
                         <ul class="list">
                             <li class="box-li"><p>E-mail:<a href="mailto:elbek952812@gmail.com"> elbek952812@gmail.com</a></p></li>
-                            <li class="box-li"><p>Mobile: <a href="tel:+998 90 175 25 69"> +998 90 175 25 69</a></p></li>
+                            <li class="box-li"><p>Mobile: <a href="tel:+998901752569"> +998 90 175 25 69</a></p></li>
                             <li class="box-li">Telegram: @aelfo</li>
                             <li class="box-li">Discord: Elbek Nurmukhamedov #6843</li>
                             <li class="box-li"><p>GitHub:<a href="https://github.com/elbek9528"> elbek9528</a></p> </li>
                         </ul>
                     </div>
                     <div class="section2__box-right">
-                        <a name="address"></a>
+                        <a id="address"></a>
                         <h2>Address</h2>
                         <p class="section2__text">
-                            Muminov str., 6/7, 69, 100041, Tashkent, Uzbekistan
+                            Muminov str., 6/7, 69,<br>
+                            100041, Tashkent, Uzbekistan
                         </p>
                     </div>
                 </div>
@@ -89,7 +90,7 @@
             <div class="container">
                 <div class="section__box">
                     <div class="section3__box-left">
-                        <a name="skills"></a>
+                        <a id="skills"></a>
                         <h2>Skills</h2>
                         <ul class="list">
                             <li class="box-li">HTML</li>
@@ -99,7 +100,7 @@
                         </ul>
                     </div>
                     <div class="section3__box-right">
-                        <a name="experience"></a>
+                        <a id="experience"></a>
                         <h2>Experince</h2>
                         <ul class="list">
                             <li class="box-li">09/2019 - 03/2021 System Administrator at own startup project</li>
@@ -108,27 +109,36 @@
                             <li class="box-li">12/2021 - 01/2023 Project Manager at Pharmacy and Medical Company</li>
                         </ul>
                     </div>
-                    <div class="section3__box-down">
-                        <a name="code"></a>
+                </div>
+                <div class="section__box">
+                    <div class="section3__box-left">
+                        <a id="code"></a>
                         <h2>Code example</h2>
+                        <h3>Java</h3>
                         <pre class="code-example">
-                            <code class="html-example">
-                                <ul class="header__nav-list">
-                                    <li class="header__nav-li">
-                                        <a href="#" class="header__nav-link">
-                                            <img src="images/logo.svg" alt="">
-                                        </a>
-                                    </li>
-                                    <li class="header__nav-li">
-                                        <a href="#" class="header__nav-link">iMac</a>
-                                    </li>
-                                    <li class="header__nav-li">
-                                        <a href="#" class="header__nav-link">iPad</a>
-                                    </li>
-                                    <li class="header__nav-li">
-                                        <a href="#" class="header__nav-link">iPhone</a>
-                                    </li>
-                                </ul> 
+                            <code class="java-example">
+                            public class Multiply {
+                                public static Double multiply(Double a, Double b) {
+                                    return a * b;
+                                }
+                            }
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="section3__box-right">
+                        <h2>Code example</h2>
+                        <h3>JS</h3>
+                        <pre class="code-example">
+                            <code class="js-example">
+                            function changeColor(element) {
+                                var currentColor = element.style.backgroundColor;
+                                if(currentColor == "red"){
+                                    element.style.bachgrounColor = "green"
+                                } else{
+                                    element.style.backgroumColor = "red"
+                                }
+                            
+                            }
                             </code>
                         </pre>
                     </div>
@@ -138,23 +148,23 @@
         <section class="section4">
             <div class="container">
                 <div class="section__box">
-                    <div class="section__box-left">
-                        <a name="education"></a>
+                    <div class="section4__box-left">
+                        <a id="education"></a>
                         <h2>Education</h2>
-                        <ul class="list">
-                            <li class="list">2019 - Tashkent Branch of MSU named after Lomonosov, applied math and computer science</li>
-                            <li class="list">2022 - Proweb courses</li>
-                            <li class="list">2022 - Javarush courses</li>
-                        </ul>
+                        <ol class="ol-list">
+                            <li class="ol-list-li">2019 - Tashkent Branch of MSU Lomonosov</li>
+                            <li class="ol-list-li">2022 - Proweb courses</li>
+                            <li class="ol-list-li">2022 - Javarush courses</li>
+                        </ol>
                     </div>
-                    <div class="section__box-right">
-                        <a name="language"></a>
+                    <div class="section4__box-right">
+                        <a id="language"></a>
                         <h2>Language</h2>
-                        <ol class="list">
-                            <li class="list">Russian - native</li>
-                            <li class="list">English - B1</li>
-                            <li class="list">German - B2</li>
-                            <li class="list">Uzbek - spoken</li>
+                        <ol class="ol-list">
+                            <li class="ol-list-li">Russian - native</li>
+                            <li class="ol-list-li">English - B1</li>
+                            <li class="ol-list-li">German - B2</li>
+                            <li class="ol-list-li">Uzbek - spoken</li>
                         </ol>
                     </div>
                 </div>
@@ -169,7 +179,7 @@
                 </a>
                 <p class="footer-text">Q4-2022</p>
                 <a href="https://rs.school/js/" class="link">
-                    <img src="img/rs_school_js.svg" alt="rs_school_js" class="img-link">
+                    <img src="img/rs_school_js.svg" alt="rs_school_js" class="img-link-rs">
                 </a>
             </div>
         </div>

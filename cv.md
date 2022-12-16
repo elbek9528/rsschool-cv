@@ -9,13 +9,14 @@
 Tashkent, Uzbekistan  
 Muminov str, 6/7, 69  
 ## About me
-I have good communication skills, easily adapt to the interlocutor.
-Responsible approach to solving problems, I like to work in a team. I try to manage my time wisely. 
+I have good communication skills, easily adapt to the companion.
+Responsible approach to solving problems, can easily work in a team. I try to manage my time wisely. 
 I am fond of intellectual games, tech blogs, music and computer assembly.
 ## Skills
 * HTML
 * CSS
 * Git
+* Figma
 ## Code example
 ```
 <ul class="header__nav-list">
@@ -47,5 +48,5 @@ I am fond of intellectual games, tech blogs, music and computer assembly.
 ## Language
 1) Russian - native
 2) English - B1
-3) German - C1
+3) German - B2
 4) Uzbek - spoken

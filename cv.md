@@ -9,31 +9,33 @@
 Tashkent, Uzbekistan  
 Muminov str, 6/7, 69  
 ## About me
-I have good communication skills, easily adapt to the interlocutor.
-Responsible approach to solving problems, I like to work in a team. I try to manage my time wisely. 
+I have good communication skills, easily adapt to the companion.
+Responsible approach to solving problems, can easily work in a team. I try to manage my time wisely. 
 I am fond of intellectual games, tech blogs, music and computer assembly.
 ## Skills
 * HTML
 * CSS
 * Git
+* Figma
 ## Code example
 ```
-<ul class="header__nav-list">
-                        <li class="header__nav-li">
-                            <a href="#" class="header__nav-link">
-                                <img src="images/logo.svg" alt="">
-                            </a>
-                        </li>
-                        <li class="header__nav-li">
-                            <a href="#" class="header__nav-link">iMac</a>
-                        </li>
-                        <li class="header__nav-li">
-                            <a href="#" class="header__nav-link">iPad</a>
-                        </li>
-                        <li class="header__nav-li">
-                            <a href="#" class="header__nav-link">iPhone</a>
-                        </li>
-                    </ul> 
+public class Multiply {
+    public static Double multiply(Double a, Double b) {
+        return a * b;
+    }
+}
+```
+## Code example
+```
+ function changeColor(element) {
+                                var currentColor = element.style.backgroundColor;
+                                if(currentColor == "red"){
+                                    element.style.bachgrounColor = "green"
+                                } else{
+                                    element.style.backgroumColor = "red"
+                                }
+                            
+                            }
 ```
 ## Experince
 * 09/2019 - 03/2021 System Administrator at own startup project 
@@ -41,11 +43,11 @@ I am fond of intellectual games, tech blogs, music and computer assembly.
 * 04/2021 - 11/2021 Head of medical distributor
 * 12/2021 - 01/2023 Project Manager at Pharmacy and Medical Company
 ## Education
-* 2019 - Tashkent Branch of MSU named after Lomonosov, applied math and computer science
+* 2019 - Tashkent Branch of MSU named after Lomonosov
 * 2022 - Proweb courses
 * 2022 - Javarush courses
 ## Language
 1) Russian - native
 2) English - B1
-3) German - C1
+3) German - B2
 4) Uzbek - spoken

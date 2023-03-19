@@ -38,6 +38,9 @@ html {
 .header__nav-anchor:hover{
     color: gold;
 }
+.anchor {
+    display: none;
+}
 .section__box {
     display: flex;
     padding-bottom: 200px;
